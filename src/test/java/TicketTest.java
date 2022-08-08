@@ -35,7 +35,7 @@ public class TicketTest {
 
 
         Ticket[] actual = manager.findTickets("LED", "RVH");
-        Ticket[] expected = {ticket3, ticket6, ticket5};
+        Ticket[] expected = {ticket3, ticket8, ticket6, ticket5};
 
         assertArrayEquals(expected, actual);
     }
