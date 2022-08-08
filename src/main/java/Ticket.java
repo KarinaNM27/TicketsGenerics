@@ -18,7 +18,6 @@ public class Ticket implements Comparable<Ticket> {
     private int time;
 
 
-
     @Override
     public int compareTo(Ticket otherTicket) {
         Ticket ticket = (Ticket) otherTicket;
